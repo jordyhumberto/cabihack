@@ -1,0 +1,26 @@
+main{
+    margin:auto;
+    width: 90%;
+}
+footer{
+    text-align: center;
+}
+main section p{
+    text-align: justify;
+}
+@media screen and (min-width:992px){
+    main{
+        overflow: hidden;
+    }
+    main section,
+    main figure{
+        float:left;
+        width:45%;
+    }
+    main figure{
+        text-align: center
+    }
+}
+img{
+    width: 60%;
+}
